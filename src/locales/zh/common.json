@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "首页",
+    "battles": "战役",
+    "map": "地图",
+    "characters": "人物",
+    "relationships": "关系"
+  },
+  "home": {
+    "title": "二战历史平台",
+    "subtitle": "沉浸式二战历史互动体验",
+    "description": "通过互动地图和时间线探索重大战役、人物和历史事件。",
+    "cta": "开始探索"
+  },
+  "battles": {
+    "title": "重大战役",
+    "subtitle": "二战关键军事战役"
+  },
+  "map": {
+    "title": "二战地图",
+    "subtitle": "追踪部队移动和进军路线"
+  },
+  "characters": {
+    "title": "关键人物",
+    "subtitle": "二战重要人物"
+  },
+  "relationships": {
+    "title": "人物关系",
+    "subtitle": "关键人物之间的联系"
+  }
+}

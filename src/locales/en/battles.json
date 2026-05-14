@@ -1,0 +1,62 @@
+{
+  "poland": {
+    "name": "Invasion of Poland",
+    "startDate": "1939-09-01",
+    "endDate": "1939-10-06",
+    "result": "German victory",
+    "description": "The invasion of Poland marked the beginning of World War II.",
+    "events": [
+      {
+        "date": "1939-09-01",
+        "title": "Germany invades Poland",
+        "description": "German forces cross the Polish border.",
+        "latlng": [52.2298, 21.0118]
+      },
+      {
+        "date": "1939-09-17",
+        "title": "Soviet Union invades Poland",
+        "description": "Soviet forces enter Poland from the east.",
+        "latlng": [50.0647, 19.9450]
+      },
+      {
+        "date": "1939-09-28",
+        "title": "Warsaw surrenders",
+        "description": "Polish capital surrenders to German forces.",
+        "latlng": [52.2298, 21.0118]
+      },
+      {
+        "date": "1939-10-06",
+        "title": "Poland divided",
+        "description": "Poland is divided between Germany and the Soviet Union.",
+        "latlng": [52.0, 19.0]
+      }
+    ]
+  },
+  "france": {
+    "name": "Battle of France",
+    "startDate": "1940-05-10",
+    "endDate": "1940-06-25",
+    "result": "German victory",
+    "description": "German forces invade and defeat France in just six weeks.",
+    "events": [
+      {
+        "date": "1940-05-10",
+        "title": "Germany invades France",
+        "description": "German forces begin their offensive.",
+        "latlng": [49.4432, 1.0999]
+      },
+      {
+        "date": "1940-06-14",
+        "title": "Paris falls",
+        "description": "German forces enter Paris.",
+        "latlng": [48.8566, 2.3522]
+      },
+      {
+        "date": "1940-06-22",
+        "title": "France signs armistice",
+        "description": "France surrenders to Germany.",
+        "latlng": [49.2583, 1.0700]
+      }
+    ]
+  }
+}

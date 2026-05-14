@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Home",
+    "battles": "Battles",
+    "map": "Map",
+    "characters": "Characters",
+    "relationships": "Relationships"
+  },
+  "home": {
+    "title": "WWII History Platform",
+    "subtitle": "Immersive interactive experience of World War II",
+    "description": "Explore major battles, characters, and historical events with interactive maps and timelines.",
+    "cta": "Start Exploring"
+  },
+  "battles": {
+    "title": "Major Battles",
+    "subtitle": "Key military engagements of World War II"
+  },
+  "map": {
+    "title": "World War II Map",
+    "subtitle": "Track troop movements and advances"
+  },
+  "characters": {
+    "title": "Key Figures",
+    "subtitle": "Important personalities of World War II"
+  },
+  "relationships": {
+    "title": "Character Relationships",
+    "subtitle": "Connections between key figures"
+  }
+}
