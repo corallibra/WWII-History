@@ -1,31 +1,68 @@
 {
-  "nav": {
-    "home": "首页",
-    "battles": "战役",
-    "map": "地图",
-    "characters": "人物",
-    "relationships": "关系"
-  },
   "home": {
-    "title": "二战历史平台",
-    "subtitle": "沉浸式二战历史互动体验",
-    "description": "通过互动地图和时间线探索重大战役、人物和历史事件。",
+    "title": "第二次世界大战历史平台",
+    "subtitle": "探索人类历史上最伟大的冲突",
+    "description": "发现塑造第二次世界大战的战役、领袖和关键事件。互动地图、详细时间线和全面传记等待着您。",
     "cta": "开始探索"
   },
-  "battles": {
-    "title": "重大战役",
-    "subtitle": "二战关键军事战役"
+  "navbar": {
+    "home": "首页",
+    "battles": "战役",
+    "map": "互动地图",
+    "characters": "领袖",
+    "relationships": "人物关系",
+    "language": "语言",
+    "en": "英文",
+    "zh": "中文"
   },
-  "map": {
-    "title": "二战地图",
-    "subtitle": "追踪部队移动和进军路线"
+  "battles": {
+    "title": "主要战役",
+    "subtitle": "第二次世界大战的关键战斗",
+    "allTheaters": "所有战场",
+    "europe": "欧洲",
+    "pacific": "太平洋",
+    "africa": "北非",
+    "asia": "亚洲",
+    "duration": "持续时间",
+    "belligerents": "交战方",
+    "result": "结果",
+    "significance": "重要意义",
+    "events": "关键事件",
+    "backToList": "返回战役列表"
   },
   "characters": {
-    "title": "关键人物",
-    "subtitle": "二战重要人物"
+    "title": "关键领袖",
+    "subtitle": "第二次世界大战的重要人物",
+    "allies": "同盟国",
+    "axis": "轴心国",
+    "nationality": "国籍",
+    "role": "职位",
+    "faction": "阵营",
+    "biography": "传记",
+    "achievements": "主要成就",
+    "quotes": "名言",
+    "footprints": "历史足迹",
+    "backToList": "返回领袖列表",
+    "battlesParticipated": "参与战役"
+  },
+  "map": {
+    "title": "互动战役地图",
+    "play": "播放",
+    "pause": "暂停",
+    "reset": "重置",
+    "speed": "速度",
+    "selectRoute": "选择路线",
+    "step": "步骤"
   },
   "relationships": {
-    "title": "人物关系",
-    "subtitle": "关键人物之间的联系"
+    "title": "领袖关系",
+    "subtitle": "二战领袖之间的联系",
+    "command": "指挥",
+    "political": "政治",
+    "enemy": "敌对",
+    "allied": "同盟",
+    "rival": "竞争",
+    "mentor": "导师",
+    "family": "家族"
   }
 }

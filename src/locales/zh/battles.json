@@ -1,62 +1,178 @@
 {
   "poland": {
     "name": "波兰战役",
-    "startDate": "1939-09-01",
-    "endDate": "1939-10-06",
-    "result": "德国胜利",
-    "description": "波兰战役标志着第二次世界大战的开始。",
+    "result": "德国和苏联胜利",
+    "description": "纳粹德国和苏联入侵波兰标志着第二次世界大战的开始。德国使用闪电战战术迅速击溃波兰防御。",
     "events": [
-      {
-        "date": "1939-09-01",
-        "title": "德国入侵波兰",
-        "description": "德国军队越过波兰边境。",
-        "latlng": [52.2298, 21.0118]
-      },
-      {
-        "date": "1939-09-17",
-        "title": "苏联入侵波兰",
-        "description": "苏联军队从东部进入波兰。",
-        "latlng": [50.0647, 19.9450]
-      },
-      {
-        "date": "1939-09-28",
-        "title": "华沙投降",
-        "description": "波兰首都向德国军队投降。",
-        "latlng": [52.2298, 21.0118]
-      },
-      {
-        "date": "1939-10-06",
-        "title": "波兰被瓜分",
-        "description": "波兰被德国和苏联瓜分。",
-        "latlng": [52.0, 19.0]
-      }
+      {"date": "1939-09-01", "title": "德国入侵波兰", "description": "德军于黎明时分越过波兰边境"},
+      {"date": "1939-09-03", "title": "英法宣战", "description": "同盟国履行对波兰的承诺"},
+      {"date": "1939-09-17", "title": "苏联入侵", "description": "红军从东部进入波兰"},
+      {"date": "1939-09-27", "title": "华沙投降", "description": "波兰首都在激烈战斗后沦陷"}
     ]
   },
   "france": {
     "name": "法国战役",
-    "startDate": "1940-05-10",
-    "endDate": "1940-06-25",
     "result": "德国胜利",
-    "description": "德国军队在短短六周内入侵并击败了法国。",
+    "description": "德国快速闪电战在短短六周内击败法国及其盟友，导致巴黎沦陷和法国投降。",
     "events": [
-      {
-        "date": "1940-05-10",
-        "title": "德国入侵法国",
-        "description": "德国军队开始进攻。",
-        "latlng": [49.4432, 1.0999]
-      },
-      {
-        "date": "1940-06-14",
-        "title": "巴黎沦陷",
-        "description": "德国军队进入巴黎。",
-        "latlng": [48.8566, 2.3522]
-      },
-      {
-        "date": "1940-06-22",
-        "title": "法国签署停战协定",
-        "description": "法国向德国投降。",
-        "latlng": [49.2583, 1.0700]
-      }
+      {"date": "1940-05-10", "title": "德国进攻", "description": "A集团军群穿越阿登山脉"},
+      {"date": "1940-05-26", "title": "敦刻尔克撤退", "description": "盟军部队从法国海滩撤离"},
+      {"date": "1940-06-14", "title": "巴黎沦陷", "description": "德军进入首都"},
+      {"date": "1940-06-22", "title": "法国投降", "description": "在贡比涅签署停战协定"}
+    ]
+  },
+  "britain": {
+    "name": "不列颠之战",
+    "result": "英国胜利",
+    "description": "史上首次完全在空中进行的重大战役。英国皇家空军成功抵御德国空军，阻止了入侵。",
+    "events": [
+      {"date": "1940-07-10", "title": "战役开始", "description": "德国空袭英国航运"},
+      {"date": "1940-08-15", "title": "鹰日", "description": "德国空军大规模袭击皇家空军机场"},
+      {"date": "1940-09-07", "title": "伦敦大轰炸开始", "description": "德国轰炸机轰炸英国城市"},
+      {"date": "1940-10-31", "title": "战役结束", "description": "德国放弃入侵计划"}
+    ]
+  },
+  "moscow": {
+    "name": "莫斯科战役",
+    "result": "苏联胜利",
+    "description": "苏联对莫斯科的防御标志着二战中德军首次重大失败。红军的冬季反攻将德军击退。",
+    "events": [
+      {"date": "1941-10-02", "title": "台风行动", "description": "德军发起对莫斯科的进攻"},
+      {"date": "1941-11-07", "title": "红场阅兵", "description": "斯大林向开赴前线的部队发表讲话"},
+      {"date": "1941-12-05", "title": "苏联反攻", "description": "冬季攻势开始"},
+      {"date": "1942-01-07", "title": "德军撤退", "description": "莫斯科保卫成功"}
+    ]
+  },
+  "stalingrad": {
+    "name": "斯大林格勒战役",
+    "result": "苏联胜利",
+    "description": "被认为是二战的转折点。苏联的胜利摧毁了德国第六集团军，标志着纳粹德国末日的开始。",
+    "events": [
+      {"date": "1942-08-23", "title": "战役开始", "description": "德军抵达斯大林格勒"},
+      {"date": "1942-11-19", "title": "天王星行动", "description": "苏军包围德军"},
+      {"date": "1942-11-23", "title": "第六集团军被围", "description": "德军陷入包围"},
+      {"date": "1943-02-02", "title": "德军投降", "description": "91,000名德军被俘"}
+    ]
+  },
+  "kursk": {
+    "name": "库尔斯克战役",
+    "result": "苏联胜利",
+    "description": "历史上最大规模的坦克战。苏联的防御阻止了德军在东线的最后一次大规模进攻。",
+    "events": [
+      {"date": "1943-07-05", "title": "堡垒行动", "description": "德军攻势开始"},
+      {"date": "1943-07-12", "title": "普罗霍罗夫卡", "description": "历史上最大规模的坦克战"},
+      {"date": "1943-07-13", "title": "德军撤退", "description": "希特勒取消攻势"},
+      {"date": "1943-08-23", "title": "苏联胜利", "description": "哈尔科夫被收复"}
+    ]
+  },
+  "normandy": {
+    "name": "诺曼底登陆",
+    "result": "盟军胜利",
+    "description": "历史上最大规模的两栖登陆。D日标志着西欧解放的开始。",
+    "events": [
+      {"date": "1944-06-06", "title": "D日", "description": "盟军登陆诺曼底海滩"},
+      {"date": "1944-06-06", "title": "海滩登陆", "description": "美国、英国和加拿大部队占领五个海滩"},
+      {"date": "1944-06-12", "title": "滩头阵地巩固", "description": "盟军在法国建立稳固立足点"},
+      {"date": "1944-08-25", "title": "巴黎解放", "description": "法国首都从德国占领下解放"}
+    ]
+  },
+  "bulge": {
+    "name": "突出部战役",
+    "result": "盟军胜利",
+    "description": "希特勒在西线的最后一次大规模进攻。突出部战役是美军在二战中参与的最大规模战役。",
+    "events": [
+      {"date": "1944-12-16", "title": "阿登攻势", "description": "德军发动突然袭击"},
+      {"date": "1944-12-20", "title": "巴斯托涅被围", "description": "101空降师被困在比利时小镇"},
+      {"date": "1944-12-26", "title": "巴斯托涅解围", "description": "巴顿第4装甲师突破包围"},
+      {"date": "1945-01-25", "title": "德军撤退", "description": "盟军将德军推回原阵地"}
+    ]
+  },
+  "berlin": {
+    "name": "柏林战役",
+    "result": "苏联胜利",
+    "description": "二战欧洲战场的最后一场重大战役。苏军攻占柏林，导致希特勒自杀和德国投降。",
+    "events": [
+      {"date": "1945-04-16", "title": "战役开始", "description": "苏军进攻柏林"},
+      {"date": "1945-04-25", "title": "柏林被围", "description": "苏军和美军在托尔高会师"},
+      {"date": "1945-04-30", "title": "希特勒之死", "description": "元首在地堡中自杀"},
+      {"date": "1945-05-08", "title": "德国投降", "description": "签署无条件投降书"}
+    ]
+  },
+  "pearlharbor": {
+    "name": "珍珠港事件",
+    "result": "日本胜利",
+    "description": "日本对美国珍珠港海军基地的突然袭击使美国卷入第二次世界大战。",
+    "events": [
+      {"date": "1941-12-07", "title": "袭击开始", "description": "日本飞机于上午7:48袭击珍珠港"},
+      {"date": "1941-12-07", "title": "战列舰排", "description": "8艘战列舰被击中，4艘沉没"},
+      {"date": "1941-12-07", "title": "机场被袭", "description": "188架美国飞机被毁"},
+      {"date": "1941-12-08", "title": "美国宣战", "description": "罗斯福总统请求国会宣战"}
+    ]
+  },
+  "midway": {
+    "name": "中途岛战役",
+    "result": "美国胜利",
+    "description": "太平洋战争的转折点。美国海军摧毁了四艘日本航空母舰，阻止了日本的扩张。",
+    "events": [
+      {"date": "1942-06-04", "title": "战役开始", "description": "日本航母飞机袭击中途岛"},
+      {"date": "1942-06-04", "title": "美国反击", "description": "美国俯冲轰炸机击沉三艘航母"},
+      {"date": "1942-06-05", "title": "飞龙号沉没", "description": "第四艘日本航母被摧毁"},
+      {"date": "1942-06-07", "title": "战役结束", "description": "日本失去太平洋主动权"}
+    ]
+  },
+  "guadalcanal": {
+    "name": "瓜达尔卡纳尔岛战役",
+    "result": "美国胜利",
+    "description": "太平洋战争中美国的首次大规模进攻。该战役确保了关键机场的安全，并标志着盟军跳岛战术的开始。",
+    "events": [
+      {"date": "1942-08-07", "title": "美军登陆", "description": "海军陆战队登陆瓜达尔卡纳尔岛"},
+      {"date": "1942-08-20", "title": "亨德森机场启用", "description": "美军占领日本机场"},
+      {"date": "1942-11-13", "title": "瓜达尔卡纳尔海战", "description": "美国海军击败日本舰队"},
+      {"date": "1943-02-09", "title": "日军撤退", "description": "盟军控制该岛"}
+    ]
+  },
+  "leyte": {
+    "name": "莱特湾海战",
+    "result": "美国胜利",
+    "description": "历史上最大规模的海战。美国海军摧毁了日本舰队，为菲律宾解放开辟了道路。",
+    "events": [
+      {"date": "1944-10-20", "title": "莱特岛登陆", "description": "麦克阿瑟重返菲律宾"},
+      {"date": "1944-10-23", "title": "战役开始", "description": "日本舰队在巴拉望海峡遭袭击"},
+      {"date": "1944-10-25", "title": "锡布延海", "description": "日本战列舰武藏号被击沉"},
+      {"date": "1944-10-25", "title": "苏里高海峡", "description": "最后一次战列舰对决"}
+    ]
+  },
+  "iwojima": {
+    "name": "硫磺岛战役",
+    "result": "美国胜利",
+    "description": "为一座小火山岛进行的血腥战役。硫磺岛为B-29轰炸机提供了重要的紧急着陆场。",
+    "events": [
+      {"date": "1945-02-19", "title": "美军登陆", "description": "海军陆战队登陆硫磺岛"},
+      {"date": "1945-02-23", "title": "旗帜升起", "description": "美国国旗在折钵山升起"},
+      {"date": "1945-03-02", "title": "机场占领", "description": "元山机场被占领"},
+      {"date": "1945-03-26", "title": "岛屿控制", "description": "日本抵抗结束"}
+    ]
+  },
+  "okinawa": {
+    "name": "冲绳岛战役",
+    "result": "美国胜利",
+    "description": "第二次世界大战的最后一场重大战役。冲绳岛作为计划入侵日本的集结地。",
+    "events": [
+      {"date": "1945-04-01", "title": "美军登陆", "description": "第十集团军登陆冲绳岛"},
+      {"date": "1945-04-06", "title": "神风攻击", "description": "大规模日本自杀式袭击"},
+      {"date": "1945-05-29", "title": "首里城陷落", "description": "日本防线被突破"},
+      {"date": "1945-06-22", "title": "冲绳岛控制", "description": "有组织抵抗结束"}
+    ]
+  },
+  "alamein": {
+    "name": "第二次阿拉曼战役",
+    "result": "盟军胜利",
+    "description": "北非战役的转折点。蒙哥马利的胜利将隆美尔的非洲军团赶出埃及。",
+    "events": [
+      {"date": "1942-10-23", "title": "轻足行动", "description": "盟军攻势开始"},
+      {"date": "1942-10-24", "title": "雷区突破", "description": "盟军突破轴心国防线"},
+      {"date": "1942-11-02", "title": "增压行动", "description": "发起最后攻击"},
+      {"date": "1942-11-11", "title": "轴心国撤退", "description": "隆美尔下令撤退"}
     ]
   }
 }

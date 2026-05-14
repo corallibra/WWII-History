@@ -1,31 +1,68 @@
 {
-  "nav": {
+  "home": {
+    "title": "World War II History Platform",
+    "subtitle": "Explore the Greatest Conflict in Human History",
+    "description": "Discover the battles, leaders, and key events that shaped World War II. Interactive maps, detailed timelines, and comprehensive biographies await you.",
+    "cta": "Start Exploring"
+  },
+  "navbar": {
     "home": "Home",
     "battles": "Battles",
-    "map": "Map",
-    "characters": "Characters",
-    "relationships": "Relationships"
-  },
-  "home": {
-    "title": "WWII History Platform",
-    "subtitle": "Immersive interactive experience of World War II",
-    "description": "Explore major battles, characters, and historical events with interactive maps and timelines.",
-    "cta": "Start Exploring"
+    "map": "Interactive Map",
+    "characters": "Leaders",
+    "relationships": "Relationships",
+    "language": "Language",
+    "en": "English",
+    "zh": "Chinese"
   },
   "battles": {
     "title": "Major Battles",
-    "subtitle": "Key military engagements of World War II"
-  },
-  "map": {
-    "title": "World War II Map",
-    "subtitle": "Track troop movements and advances"
+    "subtitle": "Key engagements of World War II",
+    "allTheaters": "All Theaters",
+    "europe": "Europe",
+    "pacific": "Pacific",
+    "africa": "North Africa",
+    "asia": "Asia",
+    "duration": "Duration",
+    "belligerents": "Belligerents",
+    "result": "Result",
+    "significance": "Significance",
+    "events": "Key Events",
+    "backToList": "Back to Battle List"
   },
   "characters": {
-    "title": "Key Figures",
-    "subtitle": "Important personalities of World War II"
+    "title": "Key Leaders",
+    "subtitle": "Influential figures of World War II",
+    "allies": "Allied Powers",
+    "axis": "Axis Powers",
+    "nationality": "Nationality",
+    "role": "Role",
+    "faction": "Faction",
+    "biography": "Biography",
+    "achievements": "Key Achievements",
+    "quotes": "Famous Quotes",
+    "footprints": "Historical Footprints",
+    "backToList": "Back to Leader List",
+    "battlesParticipated": "Battles Participated"
+  },
+  "map": {
+    "title": "Interactive Battle Map",
+    "play": "Play",
+    "pause": "Pause",
+    "reset": "Reset",
+    "speed": "Speed",
+    "selectRoute": "Select a Route",
+    "step": "Step"
   },
   "relationships": {
-    "title": "Character Relationships",
-    "subtitle": "Connections between key figures"
+    "title": "Leader Relationships",
+    "subtitle": "Connections between WWII leaders",
+    "command": "Command",
+    "political": "Political",
+    "enemy": "Enemy",
+    "allied": "Allied",
+    "rival": "Rival",
+    "mentor": "Mentor",
+    "family": "Family"
   }
 }

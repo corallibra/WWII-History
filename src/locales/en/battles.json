@@ -1,62 +1,178 @@
 {
   "poland": {
     "name": "Invasion of Poland",
-    "startDate": "1939-09-01",
-    "endDate": "1939-10-06",
-    "result": "German victory",
-    "description": "The invasion of Poland marked the beginning of World War II.",
+    "result": "German and Soviet victory",
+    "description": "The invasion of Poland by Nazi Germany and the Soviet Union marked the beginning of World War II. Using Blitzkrieg tactics, German forces quickly overwhelmed Polish defenses.",
     "events": [
-      {
-        "date": "1939-09-01",
-        "title": "Germany invades Poland",
-        "description": "German forces cross the Polish border.",
-        "latlng": [52.2298, 21.0118]
-      },
-      {
-        "date": "1939-09-17",
-        "title": "Soviet Union invades Poland",
-        "description": "Soviet forces enter Poland from the east.",
-        "latlng": [50.0647, 19.9450]
-      },
-      {
-        "date": "1939-09-28",
-        "title": "Warsaw surrenders",
-        "description": "Polish capital surrenders to German forces.",
-        "latlng": [52.2298, 21.0118]
-      },
-      {
-        "date": "1939-10-06",
-        "title": "Poland divided",
-        "description": "Poland is divided between Germany and the Soviet Union.",
-        "latlng": [52.0, 19.0]
-      }
+      {"date": "1939-09-01", "title": "Germany invades Poland", "description": "German forces cross the Polish border at dawn"},
+      {"date": "1939-09-03", "title": "Britain and France declare war", "description": "Allies fulfill their guarantees to Poland"},
+      {"date": "1939-09-17", "title": "Soviet Union invades", "description": "Red Army enters Poland from the east"},
+      {"date": "1939-09-27", "title": "Warsaw surrenders", "description": "Polish capital falls after heavy fighting"}
     ]
   },
   "france": {
     "name": "Battle of France",
-    "startDate": "1940-05-10",
-    "endDate": "1940-06-25",
     "result": "German victory",
-    "description": "German forces invade and defeat France in just six weeks.",
+    "description": "Germany's rapid Blitzkrieg campaign defeated France and its allies in just six weeks, leading to the fall of Paris and French surrender.",
     "events": [
-      {
-        "date": "1940-05-10",
-        "title": "Germany invades France",
-        "description": "German forces begin their offensive.",
-        "latlng": [49.4432, 1.0999]
-      },
-      {
-        "date": "1940-06-14",
-        "title": "Paris falls",
-        "description": "German forces enter Paris.",
-        "latlng": [48.8566, 2.3522]
-      },
-      {
-        "date": "1940-06-22",
-        "title": "France signs armistice",
-        "description": "France surrenders to Germany.",
-        "latlng": [49.2583, 1.0700]
-      }
+      {"date": "1940-05-10", "title": "Germany attacks", "description": "Army Group A crosses the Ardennes"},
+      {"date": "1940-05-26", "title": "Dunkirk evacuation", "description": "Allied troops rescued from French beaches"},
+      {"date": "1940-06-14", "title": "Paris falls", "description": "German forces enter the capital"},
+      {"date": "1940-06-22", "title": "France surrenders", "description": "Armistice signed at Compiegne"}
+    ]
+  },
+  "britain": {
+    "name": "Battle of Britain",
+    "result": "British victory",
+    "description": "The first major battle fought entirely in the air. The RAF successfully defended Britain against the German Luftwaffe, preventing invasion.",
+    "events": [
+      {"date": "1940-07-10", "title": "Battle begins", "description": "German air attacks on British shipping"},
+      {"date": "1940-08-15", "title": "Eagle Day", "description": "Massive Luftwaffe raids on RAF airfields"},
+      {"date": "1940-09-07", "title": "London Blitz begins", "description": "German bombers target British cities"},
+      {"date": "1940-10-31", "title": "Battle ends", "description": "Germany abandons invasion plans"}
+    ]
+  },
+  "moscow": {
+    "name": "Battle of Moscow",
+    "result": "Soviet victory",
+    "description": "The Soviet defense of Moscow marked the first major defeat of German forces in WWII. The Red Army's winter counteroffensive pushed the Germans back.",
+    "events": [
+      {"date": "1941-10-02", "title": "Typhoon Offensive", "description": "German forces launch attack on Moscow"},
+      {"date": "1941-11-07", "title": "Red Square Parade", "description": "Stalin addresses troops en route to front"},
+      {"date": "1941-12-05", "title": "Soviet counterattack", "description": "Winter offensive begins"},
+      {"date": "1942-01-07", "title": "Germans retreat", "description": "Moscow secured"}
+    ]
+  },
+  "stalingrad": {
+    "name": "Battle of Stalingrad",
+    "result": "Soviet victory",
+    "description": "Considered the turning point of WWII. The Soviet victory destroyed the German 6th Army and marked the beginning of the end for Nazi Germany.",
+    "events": [
+      {"date": "1942-08-23", "title": "Battle begins", "description": "German forces reach Stalingrad"},
+      {"date": "1942-11-19", "title": "Operation Uranus", "description": "Soviet encirclement of German forces"},
+      {"date": "1942-11-23", "title": "6th Army trapped", "description": "German forces surrounded"},
+      {"date": "1943-02-02", "title": "German surrender", "description": "91,000 German soldiers captured"}
+    ]
+  },
+  "kursk": {
+    "name": "Battle of Kursk",
+    "result": "Soviet victory",
+    "description": "The largest tank battle in history. The Soviet defense halted the last major German offensive on the Eastern Front.",
+    "events": [
+      {"date": "1943-07-05", "title": "Operation Citadel", "description": "German offensive begins"},
+      {"date": "1943-07-12", "title": "Prokhorovka", "description": "Largest tank battle in history"},
+      {"date": "1943-07-13", "title": "German retreat", "description": "Hitler calls off offensive"},
+      {"date": "1943-08-23", "title": "Soviet victory", "description": "Kharkov recaptured"}
+    ]
+  },
+  "normandy": {
+    "name": "Normandy Landings",
+    "result": "Allied victory",
+    "description": "The largest amphibious invasion in history. D-Day marked the beginning of the liberation of Western Europe.",
+    "events": [
+      {"date": "1944-06-06", "title": "D-Day", "description": "Allied forces land on Normandy beaches"},
+      {"date": "1944-06-06", "title": "Beach landings", "description": "American, British, and Canadian troops secure five beaches"},
+      {"date": "1944-06-12", "title": "Beachhead secured", "description": "Allies establish firm foothold in France"},
+      {"date": "1944-08-25", "title": "Paris liberated", "description": "French capital freed from German occupation"}
+    ]
+  },
+  "bulge": {
+    "name": "Battle of the Bulge",
+    "result": "Allied victory",
+    "description": "Hitler's last major offensive in the West. The Battle of the Bulge was the largest battle fought by the US Army in WWII.",
+    "events": [
+      {"date": "1944-12-16", "title": "Ardennes Offensive", "description": "German surprise attack begins"},
+      {"date": "1944-12-20", "title": "Bastogne surrounded", "description": "101st Airborne trapped in Belgian town"},
+      {"date": "1944-12-26", "title": "Bastogne relieved", "description": "Patton's 4th Armored Division breaks through"},
+      {"date": "1945-01-25", "title": "German retreat", "description": "Allies push Germans back to original positions"}
+    ]
+  },
+  "berlin": {
+    "name": "Battle of Berlin",
+    "result": "Soviet victory",
+    "description": "The final major battle of WWII in Europe. Soviet forces captured Berlin, leading to Hitler's suicide and Germany's surrender.",
+    "events": [
+      {"date": "1945-04-16", "title": "Battle begins", "description": "Soviet forces attack Berlin"},
+      {"date": "1945-04-25", "title": "Berlin encircled", "description": "Soviet and American forces meet at Torgau"},
+      {"date": "1945-04-30", "title": "Hitler's death", "description": "Führer commits suicide in bunker"},
+      {"date": "1945-05-08", "title": "Germany surrenders", "description": "Unconditional surrender signed"}
+    ]
+  },
+  "pearlharbor": {
+    "name": "Attack on Pearl Harbor",
+    "result": "Japanese victory",
+    "description": "Japan's surprise attack on the US naval base at Pearl Harbor brought the United States into World War II.",
+    "events": [
+      {"date": "1941-12-07", "title": "Attack begins", "description": "Japanese aircraft strike Pearl Harbor at 7:48 AM"},
+      {"date": "1941-12-07", "title": "Battleship Row", "description": "Eight battleships hit, four sunk"},
+      {"date": "1941-12-07", "title": "Airfields attacked", "description": "188 US aircraft destroyed"},
+      {"date": "1941-12-08", "title": "US declares war", "description": "President Roosevelt asks Congress for war"}
+    ]
+  },
+  "midway": {
+    "name": "Battle of Midway",
+    "result": "American victory",
+    "description": "The turning point of the Pacific War. The US Navy destroyed four Japanese aircraft carriers, halting Japanese expansion.",
+    "events": [
+      {"date": "1942-06-04", "title": "Battle begins", "description": "Japanese carrier aircraft attack Midway"},
+      {"date": "1942-06-04", "title": "US counterattack", "description": "American dive bombers sink three carriers"},
+      {"date": "1942-06-05", "title": "Hiryu sunk", "description": "Fourth Japanese carrier destroyed"},
+      {"date": "1942-06-07", "title": "Battle ends", "description": "Japan loses initiative in Pacific"}
+    ]
+  },
+  "guadalcanal": {
+    "name": "Guadalcanal Campaign",
+    "result": "American victory",
+    "description": "The first major American offensive of the Pacific War. The campaign secured a critical airfield and marked the beginning of Allied island-hopping.",
+    "events": [
+      {"date": "1942-08-07", "title": "US landings", "description": "Marines land on Guadalcanal"},
+      {"date": "1942-08-20", "title": "Henderson Field operational", "description": "US forces capture Japanese airfield"},
+      {"date": "1942-11-13", "title": "Naval Battle of Guadalcanal", "description": "US Navy defeats Japanese fleet"},
+      {"date": "1943-02-09", "title": "Japanese withdraw", "description": "Allies secure the island"}
+    ]
+  },
+  "leyte": {
+    "name": "Battle of Leyte Gulf",
+    "result": "American victory",
+    "description": "The largest naval battle in history. The US Navy destroyed the Japanese fleet, opening the way for the liberation of the Philippines.",
+    "events": [
+      {"date": "1944-10-20", "title": "Leyte landings", "description": "MacArthur returns to Philippines"},
+      {"date": "1944-10-23", "title": "Battle begins", "description": "Japanese fleet attacked in Palawan Passage"},
+      {"date": "1944-10-25", "title": "Sibuyan Sea", "description": "Japanese battleship Musashi sunk"},
+      {"date": "1944-10-25", "title": "Surigao Strait", "description": "Last battleship vs battleship action"}
+    ]
+  },
+  "iwojima": {
+    "name": "Battle of Iwo Jima",
+    "result": "American victory",
+    "description": "A bloody battle for a small volcanic island. Iwo Jima provided a critical emergency landing strip for B-29 bombers.",
+    "events": [
+      {"date": "1945-02-19", "title": "US landings", "description": "Marines land on Iwo Jima"},
+      {"date": "1945-02-23", "title": "Flag raised", "description": "US flag hoisted on Mount Suribachi"},
+      {"date": "1945-03-02", "title": "Airfield captured", "description": "Motoyama Airfield secured"},
+      {"date": "1945-03-26", "title": "Island secured", "description": "Japanese resistance ends"}
+    ]
+  },
+  "okinawa": {
+    "name": "Battle of Okinawa",
+    "result": "American victory",
+    "description": "The last major battle of World War II. Okinawa served as a staging area for the planned invasion of Japan.",
+    "events": [
+      {"date": "1945-04-01", "title": "US landings", "description": "Tenth Army lands on Okinawa"},
+      {"date": "1945-04-06", "title": "Kamikaze attacks", "description": "Massive Japanese suicide attacks"},
+      {"date": "1945-05-29", "title": "Shuri Castle falls", "description": "Japanese defensive line broken"},
+      {"date": "1945-06-22", "title": "Okinawa secured", "description": "Organized resistance ends"}
+    ]
+  },
+  "alamein": {
+    "name": "Second Battle of El Alamein",
+    "result": "Allied victory",
+    "description": "The turning point of the North African campaign. Montgomery's victory drove Rommel's Afrika Korps out of Egypt.",
+    "events": [
+      {"date": "1942-10-23", "title": "Operation Lightfoot", "description": "Allied offensive begins"},
+      {"date": "1942-10-24", "title": "Minefields breached", "description": "Allied forces break through Axis lines"},
+      {"date": "1942-11-02", "title": "Operation Supercharge", "description": "Final assault launched"},
+      {"date": "1942-11-11", "title": "Axis retreat", "description": "Rommel orders withdrawal"}
     ]
   }
 }

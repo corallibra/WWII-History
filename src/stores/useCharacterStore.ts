@@ -1,5 +1,4 @@
 import { create } from 'zustand'
-import { characters } from '../data/characters'
 
 interface CharacterStore {
   selectedCharacterId: string | null
