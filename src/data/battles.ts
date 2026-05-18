@@ -278,5 +278,133 @@ export const battles: Battle[] = [
     routeId: 'alamein-route',
     theater: 'africa',
     significance: '北非战场转折点，轴心国势力被逐出北非'
+  },
+  {
+    id: 'dunkirk',
+    nameKey: 'battles.dunkirk.name',
+    startDate: '1940-05-26',
+    endDate: '1940-06-04',
+    resultKey: 'battles.dunkirk.result',
+    descriptionKey: 'battles.dunkirk.description',
+    belligerents: {
+      axis: ['Germany'],
+      allies: ['United Kingdom', 'France', 'Belgium', 'Canada', 'Netherlands']
+    },
+    eventsKey: 'battles.dunkirk.events',
+    routeId: 'dunkirk-route',
+    theater: 'europe',
+    significance: '敦刻尔克大撤退，保存了盟军有生力量'
+  },
+  {
+    id: 'market-garden',
+    nameKey: 'battles.marketgarden.name',
+    startDate: '1944-09-17',
+    endDate: '1944-09-26',
+    resultKey: 'battles.marketgarden.result',
+    descriptionKey: 'battles.marketgarden.description',
+    belligerents: {
+      axis: ['Germany'],
+      allies: ['United States', 'United Kingdom', 'Canada', 'Poland']
+    },
+    eventsKey: 'battles.marketgarden.events',
+    routeId: 'marketgarden-route',
+    theater: 'europe',
+    significance: '市场花园行动，蒙哥马利大胆计划失败'
+  },
+  {
+    id: 'savo-island',
+    nameKey: 'battles.savo.name',
+    startDate: '1942-08-08',
+    endDate: '1942-08-09',
+    resultKey: 'battles.savo.result',
+    descriptionKey: 'battles.savo.description',
+    belligerents: {
+      axis: ['Japan'],
+      allies: ['United States', 'Australia']
+    },
+    eventsKey: 'battles.savo.events',
+    routeId: 'savo-route',
+    theater: 'pacific',
+    significance: '萨沃岛海战，日本海军战术胜利'
+  },
+  {
+    id: 'coral-sea',
+    nameKey: 'battles.coral.name',
+    startDate: '1942-05-04',
+    endDate: '1942-05-08',
+    resultKey: 'battles.coral.result',
+    descriptionKey: 'battles.coral.description',
+    belligerents: {
+      axis: ['Japan'],
+      allies: ['United States', 'Australia']
+    },
+    eventsKey: 'battles.coral.events',
+    routeId: 'coral-route',
+    theater: 'pacific',
+    significance: '珊瑚海海战，首次航母大战'
+  },
+  {
+    id: 'philippines',
+    nameKey: 'battles.philippines.name',
+    startDate: '1944-10-20',
+    endDate: '1945-08-15',
+    resultKey: 'battles.philippines.result',
+    descriptionKey: 'battles.philippines.description',
+    belligerents: {
+      axis: ['Japan'],
+      allies: ['United States', 'Philippines', 'Australia', 'Mexico']
+    },
+    eventsKey: 'battles.philippines.events',
+    routeId: 'philippines-route',
+    theater: 'pacific',
+    significance: '菲律宾战役，麦克阿瑟兑现诺言'
+  },
+  {
+    id: 'tunisia',
+    nameKey: 'battles.tunisia.name',
+    startDate: '1942-11-17',
+    endDate: '1943-05-13',
+    resultKey: 'battles.tunisia.result',
+    descriptionKey: 'battles.tunisia.description',
+    belligerents: {
+      axis: ['Germany', 'Italy'],
+      allies: ['United States', 'United Kingdom', 'France', 'Free French']
+    },
+    eventsKey: 'battles.tunisia.events',
+    routeId: 'tunisia-route',
+    theater: 'africa',
+    significance: '突尼斯战役，轴心国在北非彻底失败'
+  },
+  {
+    id: 'kiev',
+    nameKey: 'battles.kiev.name',
+    startDate: '1941-07-07',
+    endDate: '1941-09-26',
+    resultKey: 'battles.kiev.result',
+    descriptionKey: 'battles.kiev.description',
+    belligerents: {
+      axis: ['Germany', 'Hungary', 'Romania', 'Slovakia'],
+      allies: ['Soviet Union']
+    },
+    eventsKey: 'battles.kiev.events',
+    routeId: 'kiev-route',
+    theater: 'europe',
+    significance: '基辅包围战，苏军65万人被俘'
+  },
+  {
+    id: 'leningrad',
+    nameKey: 'battles.leningrad.name',
+    startDate: '1941-09-08',
+    endDate: '1944-01-27',
+    resultKey: 'battles.leningrad.result',
+    descriptionKey: 'battles.leningrad.description',
+    belligerents: {
+      axis: ['Germany', 'Finland', 'Romania', 'Italy', 'Hungary', 'Spain'],
+      allies: ['Soviet Union']
+    },
+    eventsKey: 'battles.leningrad.events',
+    routeId: 'leningrad-route',
+    theater: 'europe',
+    significance: '列宁格勒围城战，历史上最长时间的围城'
   }
 ]
