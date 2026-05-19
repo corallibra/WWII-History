@@ -10,6 +10,8 @@
     "battles": "战役",
     "map": "互动地图",
     "characters": "领袖",
+    "weapons": "武器装备",
+    "timeline": "时间线",
     "relationships": "人物关系",
     "language": "语言",
     "en": "英文",
@@ -64,5 +66,220 @@
     "rival": "竞争",
     "mentor": "导师",
     "family": "家族"
-  }
+  },
+  "weapons": {
+    "title": "武器装备",
+    "subtitle": "二战军事技术",
+    "allCategories": "所有类别",
+    "aircraft": "飞机",
+    "tank": "坦克",
+    "naval": "海军",
+    "artillery": "火炮",
+    "infantry": "步兵武器",
+    "weight": "重量",
+    "speed": "速度",
+    "range": "射程",
+    "armament": "武器",
+    "messerschmitt": {
+      "name": "梅塞施密特 Bf 109",
+      "description": "二战期间德国标准战斗机，以其机动性和速度著称。"
+    },
+    "spitfire": {
+      "name": "超级海军喷火战斗机",
+      "description": "英国单座战斗机，在不列颠之战中发挥关键作用。"
+    },
+    "tiger": {
+      "name": "虎式坦克 I",
+      "description": "德国重型坦克，配备强大的88毫米火炮，令盟军恐惧。"
+    },
+    "sherman": {
+      "name": "M4 谢尔曼",
+      "description": "美国中型坦克，成为盟军装甲部队的支柱。"
+    },
+    "t34": {
+      "name": "T-34",
+      "description": "苏联中型坦克，在东线战场上发挥决定性作用。"
+    },
+    "zero": {
+      "name": "三菱 A6M 零式",
+      "description": "日本舰载战斗机，具有卓越的机动性和航程。"
+    },
+    "yamato": {
+      "name": "大和号",
+      "description": "日本战列舰，历史上最大、最强大的战列舰。"
+    },
+    "arizona": {
+      "name": "亚利桑那号",
+      "description": "美国战列舰，在珍珠港事件中被击沉。"
+    },
+    "flak88": {
+      "name": "88毫米高射炮 18/36",
+      "description": "德国88毫米高射炮，对坦克也有很高的杀伤力。"
+    },
+    "katusha": {
+      "name": "BM-13 喀秋莎",
+      "description": "苏联多管火箭炮，安装在卡车上。"
+    },
+    "mp40": {
+      "name": "MP 40",
+      "description": "德国冲锋枪，被步兵广泛使用。"
+    },
+    "garand": {
+      "name": "M1 加兰德",
+      "description": "美国半自动步枪，美军的标准装备。"
+    }
+  },
+  "timeline": {
+    "title": "二战时间线",
+    "subtitle": "1939-1945年关键事件",
+    "major": "重大事件",
+    "key_figures": "关键数据",
+    "total_duration": "总持续时间",
+    "countries_involved": "参战国",
+    "death_toll": "预计死亡人数",
+    "countries_description": "参战国数量",
+    "death_description": "军事和 civilian 死亡人数",
+    "category": {
+      "political": "政治",
+      "military": "军事",
+      "diplomatic": "外交",
+      "holocaust": "大屠杀",
+      "technology": "科技"
+    },
+    "side": {
+      "axis": "轴心国",
+      "allies": "同盟国",
+      "neutral": "中立国",
+      "event": "重大事件"
+    },
+    "1939": {
+      "invasion_poland": {
+        "title": "德国入侵波兰",
+        "description": "纳粹德国入侵波兰，欧洲二战爆发。"
+      },
+      "invasion_soviet": {
+        "title": "苏联入侵波兰",
+        "description": "苏联根据与德国的秘密议定书从东面入侵波兰。"
+      },
+      "declare_war": {
+        "title": "英法对德宣战",
+        "description": "在最后通牒到期后，英国和法国对德宣战。"
+      }
+    },
+    "1940": {
+      "invasion_france": {
+        "title": "德国入侵法国",
+        "description": "德国对法国和低地国家发动闪电战。"
+      },
+      "dunkirk": {
+        "title": "敦刻尔克大撤退",
+        "description": "发电机行动从敦刻尔克撤离了超过338,000名盟军士兵。"
+      },
+      "surrender_france": {
+        "title": "法国投降",
+        "description": "法国与德国签署停战协定，建立维希政权。"
+      },
+      "battle_britain": {
+        "title": "不列颠之战",
+        "description": "皇家空军在英国上空空战中击败德国空军。"
+      }
+    },
+    "1941": {
+      "barbarossa": {
+        "title": "巴巴罗萨行动",
+        "description": "德国入侵苏联，启动历史上规模最大的军事行动。"
+      },
+      "pearl_harbor": {
+        "title": "珍珠港事件",
+        "description": "日本偷袭美国太平洋舰队于夏威夷珍珠港。"
+      },
+      "usa_enters": {
+        "title": "美国参战",
+        "description": "珍珠港事件后，美国国会向日本宣战。"
+      }
+    },
+    "1942": {
+      "midway": {
+        "title": "中途岛战役",
+        "description": "美国海军在决定性的航母海战中击败日本舰队。"
+      },
+      "el_alamein": {
+        "title": "第二次阿拉曼战役",
+        "description": "英国第八集团军在北非击败轴心国军队。"
+      },
+      "stalingrad": {
+        "title": "斯大林格勒战役",
+        "description": "苏联军队包围并歼灭德国第六集团军。"
+      }
+    },
+    "1943": {
+      "kursk": {
+        "title": "库尔斯克战役",
+        "description": "历史上规模最大的坦克战；苏联胜利终结德国进攻能力。"
+      },
+      "italy_surrenders": {
+        "title": "意大利投降",
+        "description": "在卡西诺尔停战协定后，意大利向盟军投降。"
+      }
+    },
+    "1944": {
+      "dday": {
+        "title": "诺曼底登陆日",
+        "description": "盟军在诺曼底登陆，开辟西线战场。"
+      },
+      "paris": {
+        "title": "巴黎解放",
+        "description": "自由法国军队解放被德国占领的巴黎。"
+      },
+      "bulge": {
+        "title": "阿登战役",
+        "description": "德军在阿登地区的进攻尽管初期有所进展但最终失败。"
+      }
+    },
+    "1945": {
+      "leningrad": {
+        "title": "列宁格勒围城结束",
+        "description": "900天的围城随着苏军解除德国封锁而结束。"
+      },
+      "vistula": {
+        "title": "维斯瓦河-奥得河攻势",
+        "description": "苏军向波兰和东德推进。"
+      },
+      "okinawa": {
+        "title": "冲绳岛战役",
+        "description": "美军在82天的战役后占领冲绳岛。"
+      },
+      "mussolini": {
+        "title": "墨索里尼被处决",
+        "description": "意大利游击队在科莫湖附近处决贝尼托·墨索里尼。"
+      },
+      "hitler": {
+        "title": "希特勒自杀",
+        "description": "阿道夫·希特勒在柏林地堡中自杀身亡。"
+      },
+      "germany_surrenders": {
+        "title": "德国投降",
+        "description": "德国签署无条件投降书；庆祝欧洲胜利日。"
+      },
+      "hiroshima": {
+        "title": "广岛原子弹爆炸",
+        "description": "美国在广岛投下第一颗原子弹。"
+      },
+      "nagasaki": {
+        "title": "长崎原子弹爆炸",
+        "description": "美国在长崎投下第二颗原子弹。"
+      },
+      "japan_surrenders": {
+        "title": "日本宣布投降",
+        "description": "裕仁天皇向日本人民广播投降声明。"
+      },
+      "tokyo_surrender": {
+        "title": "正式投降仪式",
+        "description": "日本在东京湾密苏里号战舰上签署投降书；对日胜利日。"
+      }
+    }
+  },
+  "view all": "查看全部",
+  "interactive map description": "在互动地图上探索主要战役位置和军事行动",
+  "explore map": "探索地图"
 }

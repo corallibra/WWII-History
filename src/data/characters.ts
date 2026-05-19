@@ -497,5 +497,187 @@ export const characters: Character[] = [
       'The harder the battle, the sweeter the victory.',
       'We cannot win a war without fighting.'
     ]
+  },
+  {
+    id: 'nimitz',
+    name: 'Chester Nimitz',
+    nationality: 'United States',
+    role: 'Fleet Admiral',
+    faction: 'allies',
+    biography: 'American naval commander and Chief of Naval Operations. Nimitz led the United States Pacific Fleet during World War II and was instrumental in victories at Midway and the island-hopping campaign.',
+    battles: ['midway', 'leyte', 'okinawa'],
+    portraitUrl: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chester%20Nimitz%20portrait%20naval%20uniform%20historical%20photo&image_size=square',
+    footprints: [
+      {
+        date: '1941-12-17',
+        location: 'Pearl Harbor',
+        latlng: [21.3069, -157.8583],
+        description: 'Takes command of Pacific Fleet'
+      },
+      {
+        date: '1942-06-04',
+        location: 'Midway',
+        latlng: [28.2100, -177.3939],
+        description: 'Victory at Battle of Midway'
+      },
+      {
+        date: '1945-09-02',
+        location: 'Tokyo Bay',
+        latlng: [35.6762, 139.6503],
+        description: 'Signs Japanese surrender'
+      }
+    ],
+    achievements: [
+      'Victory at Midway (1942)',
+      'Island-hopping strategy',
+      'Defeat of Japanese Navy',
+      'Development of carrier warfare doctrine'
+    ],
+    quotes: [
+      'We shall find a way, or make one.',
+      'God could not be everywhere, so he made the sailors.'
+    ]
+  },
+  {
+    id: 'hirohito',
+    name: 'Emperor Hirohito',
+    nationality: 'Japan',
+    role: 'Emperor of Japan',
+    faction: 'axis',
+    biography: 'The 124th Emperor of Japan who reigned from 1926 to 1989. During World War II, Hirohito served as the supreme commander of the Japanese military.',
+    battles: ['pearl-harbor', 'midway', 'okinawa'],
+    portraitUrl: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Emperor%20Hirohito%20portrait%20japanese%20emperor%20historical%20photo&image_size=square',
+    footprints: [
+      {
+        date: '1941-12-08',
+        location: 'Tokyo',
+        latlng: [35.6762, 139.6503],
+        description: 'Approves Pearl Harbor attack'
+      },
+      {
+        date: '1945-08-15',
+        location: 'Tokyo',
+        latlng: [35.6762, 139.6503],
+        description: 'Broadcasts surrender message'
+      },
+      {
+        date: '1945-09-02',
+        location: 'Tokyo Bay',
+        latlng: [35.6762, 139.6503],
+        description: 'Attends surrender ceremony'
+      }
+    ],
+    achievements: [
+      'Symbol of Japanese unity during wartime',
+      'Surrender decision ending the war',
+      'Post-war reconciliation efforts'
+    ],
+    quotes: [
+      'The war has developed not necessarily to Japan\'s advantage.'
+    ]
+  },
+  {
+    id: 'gouraud',
+    name: 'Henri Gouraud',
+    nationality: 'France',
+    role: 'General',
+    faction: 'allies',
+    biography: 'French general who commanded French forces during World War I and Free French forces in World War II. Gouraud led the French Army in several campaigns.',
+    battles: ['normandy'],
+    portraitUrl: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Henri%20Gouraud%20portrait%20military%20uniform%20historical%20photo&image_size=square',
+    footprints: [
+      {
+        date: '1944-08-25',
+        location: 'Paris',
+        latlng: [48.8566, 2.3522],
+        description: 'Enters Paris with Free French forces'
+      },
+      {
+        date: '1944-09-03',
+        location: 'Brussels',
+        latlng: [50.8503, 4.3517],
+        description: 'Liberates Brussels'
+      }
+    ],
+    achievements: [
+      'Liberation of Paris',
+      'Command of French First Army',
+      'Rhine campaign'
+    ],
+    quotes: [
+      'France has lost a battle, but France has not lost the war.'
+    ]
+  },
+  {
+    id: 'montgomery',
+    name: 'Bernard Montgomery',
+    nationality: 'United Kingdom',
+    role: 'Field Marshal',
+    faction: 'allies',
+    biography: 'British field marshal and commander of Allied forces in North Africa and Europe. Montgomery played key roles in the Battle of El Alamein and D-Day planning.',
+    battles: ['alamein', 'normandy'],
+    portraitUrl: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Bernard%20Montgomery%20portrait%20military%20uniform%20historical%20photo&image_size=square',
+    footprints: [
+      {
+        date: '1942-08-13',
+        location: 'Egypt',
+        latlng: [26.8206, 30.8025],
+        description: 'Takes command of Eighth Army'
+      },
+      {
+        date: '1942-10-23',
+        location: 'El Alamein',
+        latlng: [30.0444, 28.8343],
+        description: 'Victory at Second Battle of El Alamein'
+      },
+      {
+        date: '1944-06-06',
+        location: 'Normandy',
+        latlng: [49.3399, -0.4564],
+        description: 'Commands ground forces during D-Day'
+      }
+    ],
+    achievements: [
+      'Victory at El Alamein (1942)',
+      'D-Day planning and execution',
+      'Market Garden operation'
+    ],
+    quotes: [
+      'The measure of a war leader is the quality of his men.',
+      'I do not operas.'
+    ]
+  },
+  {
+    id: 'degaulle',
+    name: 'Charles de Gaulle',
+    nationality: 'France',
+    role: 'General / President',
+    faction: 'allies',
+    biography: 'French general, resistor, and statesman. After France\'s surrender in 1940, de Gaulle became the leader of the Free French movement and later President of France.',
+    battles: ['normandy'],
+    portraitUrl: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Charles%20de%20Gaulle%20portrait%20military%20uniform%20historical%20photo&image_size=square',
+    footprints: [
+      {
+        date: '1940-06-18',
+        location: 'London',
+        latlng: [51.5074, -0.1278],
+        description: 'Broadcasts call for French resistance'
+      },
+      {
+        date: '1944-08-25',
+        location: 'Paris',
+        latlng: [48.8566, 2.3522],
+        description: 'Returns to liberated Paris'
+      }
+    ],
+    achievements: [
+      'Leader of Free French',
+      'Liberation of France',
+      'Founding of Fifth Republic'
+    ],
+    quotes: [
+      'France cannot be France without grandeur.',
+      'The flame of French resistance must not and shall not die.'
+    ]
   }
 ]

@@ -21,6 +21,8 @@ const Navbar = () => {
     { path: '/battles', label: t('navbar.battles') },
     { path: '/map', label: t('navbar.map') },
     { path: '/characters', label: t('navbar.characters') },
+    { path: '/weapons', label: t('navbar.weapons') },
+    { path: '/timeline', label: t('navbar.timeline') },
     { path: '/relationships', label: t('navbar.relationships') }
   ]
 

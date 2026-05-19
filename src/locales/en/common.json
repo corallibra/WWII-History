@@ -10,6 +10,8 @@
     "battles": "Battles",
     "map": "Interactive Map",
     "characters": "Leaders",
+    "weapons": "Weapons",
+    "timeline": "Timeline",
     "relationships": "Relationships",
     "language": "Language",
     "en": "English",
@@ -64,5 +66,220 @@
     "rival": "Rival",
     "mentor": "Mentor",
     "family": "Family"
-  }
+  },
+  "weapons": {
+    "title": "Weapons & Equipment",
+    "subtitle": "Military technology of World War II",
+    "allCategories": "All Categories",
+    "aircraft": "Aircraft",
+    "tank": "Tanks",
+    "naval": "Naval",
+    "artillery": "Artillery",
+    "infantry": "Infantry Weapons",
+    "weight": "Weight",
+    "speed": "Speed",
+    "range": "Range",
+    "armament": "Armament",
+    "messerschmitt": {
+      "name": "Messerschmitt Bf 109",
+      "description": "The standard German fighter aircraft throughout World War II, known for its agility and speed."
+    },
+    "spitfire": {
+      "name": "Supermarine Spitfire",
+      "description": "British single-seat fighter aircraft that was crucial in the Battle of Britain."
+    },
+    "tiger": {
+      "name": "Tiger I",
+      "description": "German heavy tank equipped with a powerful 88mm gun, feared by Allied forces."
+    },
+    "sherman": {
+      "name": "M4 Sherman",
+      "description": "American medium tank that formed the backbone of Allied armored forces."
+    },
+    "t34": {
+      "name": "T-34",
+      "description": "Soviet medium tank that proved decisive on the Eastern Front."
+    },
+    "zero": {
+      "name": "Mitsubishi A6M Zero",
+      "description": "Japanese carrier-based fighter with exceptional maneuverability and range."
+    },
+    "yamato": {
+      "name": "Yamato",
+      "description": "Japanese battleship, the heaviest and most powerful ever built."
+    },
+    "arizona": {
+      "name": "USS Arizona",
+      "description": "American battleship sunk during the attack on Pearl Harbor."
+    },
+    "flak88": {
+      "name": "8.8 cm Flak 18/36",
+      "description": "German 88mm anti-aircraft gun, also highly effective against tanks."
+    },
+    "katusha": {
+      "name": "BM-13 Katyusha",
+      "description": "Soviet multiple rocket launcher mounted on trucks."
+    },
+    "mp40": {
+      "name": "MP 40",
+      "description": "German submachine gun widely used by infantry."
+    },
+    "garand": {
+      "name": "M1 Garand",
+      "description": "American semi-automatic rifle, standard issue for US forces."
+    }
+  },
+  "timeline": {
+    "title": "World War II Timeline",
+    "subtitle": "Key events from 1939 to 1945",
+    "major": "Major Event",
+    "key_figures": "Key Statistics",
+    "total_duration": "Total Duration",
+    "countries_involved": "Countries Involved",
+    "death_toll": "Estimated Death Toll",
+    "countries_description": "Nations participated in the war",
+    "death_description": "Military and civilian deaths",
+    "category": {
+      "political": "Political",
+      "military": "Military",
+      "diplomatic": "Diplomatic",
+      "holocaust": "Holocaust",
+      "technology": "Technology"
+    },
+    "side": {
+      "axis": "Axis Powers",
+      "allies": "Allied Powers",
+      "neutral": "Neutral",
+      "event": "Major Event"
+    },
+    "1939": {
+      "invasion_poland": {
+        "title": "Germany Invades Poland",
+        "description": "Nazi Germany launches invasion of Poland, beginning World War II in Europe."
+      },
+      "invasion_soviet": {
+        "title": "Soviet Union Invades Poland",
+        "description": "Soviet forces invade Poland from the east, following secret protocol with Germany."
+      },
+      "declare_war": {
+        "title": "Britain and France Declare War",
+        "description": "Britain and France declare war on Germany after ultimatum expires."
+      }
+    },
+    "1940": {
+      "invasion_france": {
+        "title": "Germany Invades France",
+        "description": "Germany launches Blitzkrieg against France and Low Countries."
+      },
+      "dunkirk": {
+        "title": "Evacuation at Dunkirk",
+        "description": "Operation Dynamo evacuates over 338,000 Allied soldiers from Dunkirk."
+      },
+      "surrender_france": {
+        "title": "France Surrenders",
+        "description": "France signs armistice with Germany, establishing Vichy regime."
+      },
+      "battle_britain": {
+        "title": "Battle of Britain",
+        "description": "Royal Air Force defeats Luftwaffe in aerial combat over Britain."
+      }
+    },
+    "1941": {
+      "barbarossa": {
+        "title": "Operation Barbarossa",
+        "description": "Germany invades Soviet Union, launching largest military operation in history."
+      },
+      "pearl_harbor": {
+        "title": "Attack on Pearl Harbor",
+        "description": "Japan attacks US Pacific Fleet at Pearl Harbor, Hawaii."
+      },
+      "usa_enters": {
+        "title": "United States Enters War",
+        "description": "US Congress declares war on Japan following Pearl Harbor attack."
+      }
+    },
+    "1942": {
+      "midway": {
+        "title": "Battle of Midway",
+        "description": "US Navy defeats Japanese fleet in decisive carrier battle."
+      },
+      "el_alamein": {
+        "title": "Second Battle of El Alamein",
+        "description": "British Eighth Army defeats Axis forces in North Africa."
+      },
+      "stalingrad": {
+        "title": "Battle of Stalingrad",
+        "description": "Soviet forces encircle and destroy German Sixth Army."
+      }
+    },
+    "1943": {
+      "kursk": {
+        "title": "Battle of Kursk",
+        "description": "Largest tank battle in history; Soviet victory ends German offensive capability."
+      },
+      "italy_surrenders": {
+        "title": "Italy Surrenders",
+        "description": "Italy capitulates to Allies after Armistice of Cassibile."
+      }
+    },
+    "1944": {
+      "dday": {
+        "title": "D-Day Invasion",
+        "description": "Allied forces land in Normandy, opening Western Front."
+      },
+      "paris": {
+        "title": "Liberation of Paris",
+        "description": "Free French forces liberate Paris from German occupation."
+      },
+      "bulge": {
+        "title": "Battle of the Bulge",
+        "description": "German offensive in Ardennes fails despite initial gains."
+      }
+    },
+    "1945": {
+      "leningrad": {
+        "title": "Siege of Leningrad Ends",
+        "description": "900-day siege ends as Soviet forces lift German blockade."
+      },
+      "vistula": {
+        "title": "Vistula-Oder Offensive",
+        "description": "Soviet forces advance into Poland and eastern Germany."
+      },
+      "okinawa": {
+        "title": "Battle of Okinawa",
+        "description": "US forces capture Okinawa after 82-day campaign."
+      },
+      "mussolini": {
+        "title": "Mussolini Executed",
+        "description": "Italian partisans execute Benito Mussolini near Lake Como."
+      },
+      "hitler": {
+        "title": "Hitler Commits Suicide",
+        "description": "Adolf Hitler dies by suicide in his Berlin bunker."
+      },
+      "germany_surrenders": {
+        "title": "Germany Surrenders",
+        "description": "Germany signs unconditional surrender; V-E Day celebrated."
+      },
+      "hiroshima": {
+        "title": "Atomic Bomb on Hiroshima",
+        "description": "US drops first atomic bomb on Hiroshima, Japan."
+      },
+      "nagasaki": {
+        "title": "Atomic Bomb on Nagasaki",
+        "description": "US drops second atomic bomb on Nagasaki, Japan."
+      },
+      "japan_surrenders": {
+        "title": "Japan Announces Surrender",
+        "description": "Emperor Hirohito broadcasts surrender announcement to Japanese people."
+      },
+      "tokyo_surrender": {
+        "title": "Formal Surrender Ceremony",
+        "description": "Japan signs surrender aboard USS Missouri in Tokyo Bay; V-J Day."
+      }
+    }
+  },
+  "view all": "View All",
+  "interactive map description": "Explore the major battle locations and military movements on an interactive map",
+  "explore map": "Explore Map"
 }

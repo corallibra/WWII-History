@@ -7,6 +7,8 @@ import MapPage from './pages/MapPage'
 import CharacterListPage from './pages/CharacterListPage'
 import CharacterDetailPage from './pages/CharacterDetailPage'
 import RelationshipPage from './pages/RelationshipPage'
+import WeaponPage from './pages/WeaponPage'
+import TimelinePage from './pages/TimelinePage'
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
             <Route path="/characters" element={<CharacterListPage />} />
             <Route path="/characters/:id" element={<CharacterDetailPage />} />
             <Route path="/relationships" element={<RelationshipPage />} />
+            <Route path="/weapons" element={<WeaponPage />} />
+            <Route path="/timeline" element={<TimelinePage />} />
           </Routes>
         </div>
       </div>
