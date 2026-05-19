@@ -90,6 +90,15 @@ const TimelinePage = () => {
                     </div>
                   </div>
 
+                  {event.imageUrl && (
+                    <div className="mb-4 rounded-lg overflow-hidden shadow-lg">
+                      <img
+                        src={event.imageUrl}
+                        alt={t(event.titleKey)}
+                        className="w-full h-48 sm:h-56 object-cover transition-transform duration-300 hover:scale-105"
+                      />
+                    </div>
+                  )}
                   <h3 className="text-lg sm:text-xl font-semibold text-white mb-2">
                     {t(event.titleKey)}
                   </h3>

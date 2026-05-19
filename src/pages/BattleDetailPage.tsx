@@ -24,7 +24,7 @@ const BattleDetailPage = () => {
 
   return (
     <div className="h-full bg-gray-900 p-4 sm:p-6 md:p-8 overflow-y-auto">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <div className="flex items-center gap-4 mb-6 sm:mb-8">
           <Link
             to="/battles"
@@ -36,6 +36,16 @@ const BattleDetailPage = () => {
             <span className="text-sm sm:text-base">{t('battles.backToList')}</span>
           </Link>
         </div>
+
+        {battle.imageUrl && (
+          <div className="mb-6 sm:mb-8 rounded-2xl overflow-hidden border border-gray-700 shadow-2xl">
+            <img
+              src={battle.imageUrl}
+              alt={t(battle.nameKey)}
+              className="w-full h-56 sm:h-72 md:h-96 object-cover"
+            />
+          </div>
+        )}
 
         <div className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-xl p-4 sm:p-6 md:p-8 mb-6 sm:mb-8 border border-gray-700">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 sm:mb-4">
